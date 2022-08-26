@@ -1,3 +1,4 @@
+### Live Preview : <a href="https://krish-cutshort-assignment.netlify.app/" target="blank">https://krish-cutshort-assignment.netlify.app/</a>
 ### Folder Structure
 
     ├── public
