@@ -25,6 +25,7 @@ function App() {
 
   useEffect(() => {
     PageDisplay(baseState.step)
+    //eslint-disable-next-line
   }, [baseState.step])
 
   return (
