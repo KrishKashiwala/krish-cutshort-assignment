@@ -1,0 +1,28 @@
+/* .workspace_details_container{
+
+} */
+small > small{
+	font-size: 10px;
+	color : #BDC5D6
+}
+.workspace_input_group{
+	margin-top: 5px;;
+	display: flex;
+	padding : 2px;
+}
+input:disabled{
+	background: #F4F6F9;
+	color : white;
+	text-align: center;
+	border :white;
+	padding : 1em;
+	max-width: 30%;
+	border-top-left-radius: 8px;
+	border-bottom-left-radius: 8px;
+}
+
+#input_class_next{
+	width: 100%;
+	border-top-left-radius: 0px;
+	border-bottom-left-radius: 0px;
+}

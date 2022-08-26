@@ -1,0 +1,24 @@
+:root{
+	--button-background-color : #5A4AD1;
+	--button-primary-text:#B3AEE3
+}
+
+.button_container{
+	background-color: var(--button-background-color);
+	padding : 1em;
+	border-radius: 10px;
+	width : 20vw;
+	max-width: 40vw;
+	text-align :center;
+	color : var(--button-primary-text);
+	cursor: pointer;
+	
+}
+
+@media (max-width : 768px){
+	.button_container{
+		max-width: 100vw;
+		margin-left : 1em;
+		width: 50vw;
+	}
+}

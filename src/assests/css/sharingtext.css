@@ -1,0 +1,26 @@
+.sharing_text_container{
+	padding : 5px;
+	text-align: start;
+	padding : 10px;
+	border: #F4F6F9 5px solid;
+	position: relative;
+	width: 8vw;
+	max-width: max-content;
+	width : 10vw;
+	border-radius: 8px;
+	font-size: 80%;
+}
+
+.sharing_text_container img{
+	background-size: contain;
+	max-width: 10em;
+	max-height: 2em;
+}
+
+@media (max-width : 768px){
+	.sharing_text_container{
+		background-size: contain;
+		max-width: 100%;
+		font-size: 60%;
+	}
+} 

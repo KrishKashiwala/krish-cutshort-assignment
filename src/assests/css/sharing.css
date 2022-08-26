@@ -1,0 +1,12 @@
+.sharing_type{
+	display: flex;
+	max-width: max-content;
+	cursor: pointer;
+	gap : 1em;
+}
+.sharing_group , .sharing_user{
+	border-radius:8px;
+}
+.active{
+	border : #2415C9 2px solid;
+}

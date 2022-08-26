@@ -1,0 +1,36 @@
+
+.eden_container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 95vh;
+}
+.personal_details_container, .workspace_container,.sharing_container,.confirm_container{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	gap : 2em;
+}
+header{
+	display : flex;
+	flex-direction: column;
+	text-align: center;
+}
+header h2{
+	font-size: 900;
+	color: #40434A;
+    
+}
+header > small{
+    opacity: 0.7;
+}
+
+@media (max-width : 768px){
+
+	.personal_details_container, .workspace_container,.sharing_container,.confirm_container{
+		width : 100vw;
+	}
+}
+	

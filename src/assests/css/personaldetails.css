@@ -1,0 +1,31 @@
+.input_details_container , .workspace_details_container{
+	display : flex;
+	flex-direction: column;
+	gap : 0.5em;
+	width : 22vw;
+	min-width: 20vw;;
+	max-width: 22vw;;
+}
+.input_details_container small{
+	font-weight: 500;
+	font-size: 12px;
+	color : #40434A
+}
+.input_class , .input_class_next{
+	outline: none;
+	padding : 1em;
+	border: #F4F6F9 1px solid;
+	border-radius: 8px;;
+
+}
+
+
+@media (max-width : 768px){
+	.input_details_container , .workspace_details_container{
+		width: 100vw;
+		margin-left : -30vw;
+	}
+	.input_class {
+		width: 50vw;
+	}
+}
