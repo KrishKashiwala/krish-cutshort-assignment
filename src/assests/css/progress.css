@@ -59,3 +59,9 @@
 .progress_bar li.active_step + li::after{
 	background: var(--primary-color) 
 }
+
+@media (max-width : 768px){
+	.progress_bar {
+		gap : 1em;
+	}
+}

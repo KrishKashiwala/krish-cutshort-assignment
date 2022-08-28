@@ -9,6 +9,7 @@ small > small{
 	margin-top: 5px;;
 	display: flex;
 	padding : 2px;
+	width: 100vw;
 }
 input:disabled{
 	background: #F4F6F9;
@@ -21,8 +22,21 @@ input:disabled{
 	border-bottom-left-radius: 8px;
 }
 
-#input_class_next{
+.input_class_next{
 	width: 100%;
+	background-color: yellow;
 	border-top-left-radius: 0px;
 	border-bottom-left-radius: 0px;
+}
+
+@media (max-width : 450px){
+	input:disabled{
+		max-width: 20vw;
+		font-size : 50%;
+	}
+	.input_class_next{
+		max-width: 29vw;	
+		background : yellow; 
+	}
+	
 }

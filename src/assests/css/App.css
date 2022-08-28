@@ -31,6 +31,14 @@ header > small{
 
 	.personal_details_container, .workspace_container,.sharing_container,.confirm_container{
 		width : 100vw;
+		font-size : 60%;
+	}
+}
+@media (max-width : 450px){
+
+	.personal_details_container, .workspace_container,.sharing_container,.confirm_container{
+		width : 100vw;
+		font-size : 60%;
 	}
 }
 	
